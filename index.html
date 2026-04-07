@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Liz Photos | Eternal Frames Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand" href="#">LIZ<span style="color:var(--accent-gold);"> PHOTOS</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" style="background:var(--accent-gold);">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Connect</a></li>
+      </ul>
+      <div class="d-flex gap-2">
+        <button class="btn-gold-outline btn " onclick="alert('Let\'s create timeless art! 📸')">Book Session <i class="fas fa-arrow-right ms-2"></i></button>
+        <div class="theme-toggle" id="themeToggleBtn">
+          <i class="fas fa-moon"></i>
+          <span>Dark Mode</span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <!-- Hero Swiper Carousel -->
+  <section id="home" style="margin-top: 55px;">
+    <div class="swiper hero-carousel" style="background-color:black">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/benin trad.jpg" class="hero-img" alt="hero"><div class="hero-caption"><h1>LIZ <span>PHOTOS</span></h1><p>Cinematic storytelling · Benin / Worldwide</p><button class="btn-gold-solid" onclick="alert('Explore my world')">Explore Frames →</button></div></div>
+        <div class="swiper-slide"><img src="images/gospel.jpg" class="hero-img" alt="hero2"><div class="hero-caption"><h1>Moments <span>that echo</span></h1><p>Editorial & Fine Art</p><button class="btn-gold-solid" onclick="location.href='#portfolio'">View Portfolio →</button></div></div>
+        <div class="swiper-slide"><img src="images/chef 2.jpg" class="hero-img" alt="hero3"><div class="hero-caption"><h1>Visual <span>Alchemy</span></h1><p>Authentic · Ethereal · Bold</p><button class="btn-gold-solid" onclick="alert('Book your session')">Book a session →</button></div></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="py-5" style="background: var(--bg-primary);">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">✦ Eternal Frames ✦</h2>
+      <p class="section-subtitle" data-aos="fade-up">A curated collection of visual poetry</p>
+      <div class="portfolio-grid" data-aos="fade-up">
+        <div class="portfolio-item"><img src="images/portrait3.jpg" alt=""><div class="portfolio-overlay"><h5>Golden Muse</h5><p>Editorial</p></div></div>
+        <div class="portfolio-item"><img src="images/white.jpg" alt=""><div class="portfolio-overlay"><h5>Love Shots</h5><p>Romance</p></div></div>
+        <div class="portfolio-item"><img src="images/pregnantcouples b&w.jpg" alt=""><div class="portfolio-overlay"><h5>Ethereal Glow</h5><p>Fine Art</p></div></div>
+        <div class="portfolio-item"><img src="images/fullshot1.jpg" alt=""><div class="portfolio-overlay"><h5>Liz's Gaze</h5><p>Self-portrait</p></div></div>
+        <div class="portfolio-item"><img src="images/nysc.jpg" alt=""><div class="portfolio-overlay"><h5>Analog Dreams</h5><p>Film</p></div></div>
+        <div class="portfolio-item"><img src="images/birthday1.jpg" alt=""><div class="portfolio-overlay"><h5>Shadow Play</h5><p>High contrast</p></div></div>
+        <div class="portfolio-item"><img src="images/graduation2.jpg" alt=""><div class="portfolio-overlay"><h5>Nocturnal</h5><p>Night series</p></div></div>
+        <div class="portfolio-item"><img src="images/prewedding edo.jpg" alt=""><div class="portfolio-overlay"><h5>Silhouette & Soul</h5><p>Minimalist</p></div></div>
+        <div class="portfolio-item"><img src="images/pregnancy 1.jpg" alt=""><div class="portfolio-overlay"><h5>Geometry of Light</h5><p>Architecture</p></div></div>
+        <div class="portfolio-item"><img src="images/portrait2.jpg" alt=""><div class="portfolio-overlay"><h5>Warm Nostalgia</h5><p>Documentary</p></div></div>
+        <div class="portfolio-item"><img src="images/portrait1.jpg" alt=""><div class="portfolio-overlay"><h5>Bare Essence</h5><p>Portrait</p></div></div>
+        <div class="portfolio-item"><img src="images/portfolio1.jpg" alt=""><div class="portfolio-overlay"><h5>Chiaroscuro</h5><p>Studio work</p></div></div>
+        <div class="portfolio-item"><img src="images/family 2.jpg" alt=""><div class="portfolio-overlay"><h5>Family Bonds</h5><p>Documentary</p></div></div>
+        <div class="portfolio-item"><img src="images/couple trad.jpg" alt=""><div class="portfolio-overlay"><h5>Tradition & Love</h5><p>Cultural</p></div></div>
+        <div class="portfolio-item"><img src="images/daddy.jpg" alt=""><div class="portfolio-overlay"><h5>Father's Grace</h5><p>Portrait</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">✦ Signature Services ✦</h2>
+      <p class="section-subtitle" data-aos="fade-up">Tailored experiences for every moment</p>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100"><div class="service-card position-relative"><div class="package-badge">POPULAR</div><div class="service-icon"><i class="fas fa-camera-retro"></i></div><h3 class="service-title">Portrait Sessions</h3><p class="service-desc">Authentic, cinematic portraits that reveal your true essence.</p><ul class="service-features list-unstyled"><li><i class="fas fa-check-circle"></i> 2-3 hour session</li><li><i class="fas fa-check-circle"></i> 30+ edited images</li><li><i class="fas fa-check-circle"></i> Studio/Location</li></ul><span class="service-price">From ₦25,000</span><button class="service-btn" onclick="alert('Book your portrait session!')">Book Now →</button></div></div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150"><div class="service-card position-relative"><div class="package-badge">PREMIUM</div><div class="service-icon"><i class="fas fa-heart"></i></div><h3 class="service-title">Wedding & Events</h3><p class="service-desc">Capturing every tear, laugh, and dance with unobtrusive elegance.</p><ul class="service-features list-unstyled"><li><i class="fas fa-check-circle"></i> Full-day coverage</li><li><i class="fas fa-check-circle"></i> Second shooter option</li><li><i class="fas fa-check-circle"></i> 500+ negatives</li></ul><span class="service-price">From ₦950,000</span><button class="service-btn" onclick="alert('Let\'s capture your wedding!')">Inquire →</button></div></div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200"><div class="service-card"><div class="service-icon"><i class="fas fa-briefcase"></i></div><h3 class="service-title">Commercial & Branding</h3><p class="service-desc">Elevate your brand with professional imagery that converts.</p><ul class="service-features list-unstyled"><li><i class="fas fa-check-circle"></i> Product/Lookbook</li><li><i class="fas fa-check-circle"></i> Team headshots</li><li><i class="fas fa-check-circle"></i> Fast turnaround</li></ul><span class="service-price">Custom Quote</span><button class="service-btn" onclick="alert('Elevate your brand!')">Contact →</button></div></div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="250"><div class="service-card"><div class="service-icon"><i class="fas fa-star"></i></div><h3 class="service-title">Fashion Editorial</h3><p class="service-desc">High-end storytelling with creative direction.</p><ul class="service-features list-unstyled"><li><i class="fas fa-check-circle"></i> Mood board creation</li><li><i class="fas fa-check-circle"></i> Professional styling</li><li><i class="fas fa-check-circle"></i> Print-ready files</li></ul><span class="service-price">From ₦750,000</span><button class="service-btn" onclick="alert('Create editorial magic!')">Collaborate →</button></div></div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300"><div class="service-card"><div class="service-icon"><i class="fas fa-heartbeat"></i></div><h3 class="service-title">Couple & Engagement</h3><p class="service-desc">Dreamy, candid sessions celebrating your love story.</p><ul class="service-features list-unstyled"><li><i class="fas fa-check-circle"></i> 2 hours golden hour</li><li><i class="fas fa-check-circle"></i> 40+ edited images</li><li><i class="fas fa-check-circle"></i> Multiple locations</li></ul><span class="service-price">From ₦200,000</span><button class="service-btn" onclick="alert('Capture your love story!')">Book Session →</button></div></div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="350"><div class="service-card"><div class="service-icon"><i class="fas fa-graduation-cap"></i></div><h3 class="service-title">Convocation Shoot</h3><p class="service-desc">Celebrate your academic achievement with stunning photography.</p><ul class="service-features list-unstyled"><li><i class="fas fa-check-circle"></i> Studio/Location</li><li><i class="fas fa-check-circle"></i> Print-ready files</li><li><i class="fas fa-check-circle"></i> Professional styling</li></ul><span class="service-price">From ₦25,000</span><button class="service-btn" onclick="alert('Book your convocation shoot!')">Book Now →</button></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about-section">
+    <div class="container">
+      <div class="about-modern-card" data-aos="fade-up">
+        <div class="row g-0 align-items-stretch">
+          <div class="col-md-6 about-img-wrapper">
+            <img src="images/liz3.jpg" alt="Liz Photos - Visual Storyteller">
+          </div>
+          <div class="col-md-6 p-4 p-md-5">
+            <div class="mb-3"><span class="stat-badge"><i class="fas fa-camera-retro me-2"></i> 200+ Projects</span><span class="stat-badge ms-2"><i class="fas fa-globe me-2"></i> Nationwide</span></div>
+            <h2 class="display-5 fw-bold" style="font-family: 'Playfair Display', serif;"> <span style="color:var(--accent-gold);">LIZ PHOTOS</span></h2>
+            <p class="mt-2 fw-semibold" style="color:var(--accent-gold);">✦ Visual Storyteller / Benin ✦</p>
+            <p class="mt-3 lead" style="color: var(--text-secondary);">I didn't pick up a camera by accident, I found a way to slow down and truly see the world. My journey began when I realized that life moves fast, but a single image has the power to make time stand still.
+              I fell in love with photography because it is the only way to effectively bottle a feeling. Whether it's the quiet stillness of a morning landscape, the raw energy of a live concert, or the intimate glance between lovers. I am driven to capture the story that lives between frames. Every click is a heartbeat, every image a memory preserved for eternity.
+            </p>
+            <p style="color: var(--text-secondary);"></p>
+            <div class="row mt-4 g-3">
+              <div class="col-6"><div class="d-flex align-items-center gap-2"><i class="fas fa-award fa-2x" style="color:var(--accent-gold);"></i><div><small class="text-secondary">RECOGNITION</small><p class="mb-0 fw-bold text-secondary">Best Portrait Artist '25</p></div></div></div>
+              <div class="col-6"><div class="d-flex align-items-center gap-2"><i class="fas fa-heart fa-2x" style="color:var(--accent-gold);"></i><div><small class="text-secondary">HAPPY CLIENTS</small><p class="mb-0 fw-bold text-secondary" >250+ Nationwide</p></div></div></div>
+            </div>
+            <div class="mt-4 pt-2"><p class="text-secondary"><i class="fas fa-quote-left me-2 " style="color:var(--accent-gold);"></i>  Photography is the art of observation. It's about finding something interesting in an ordinary place... I've found it has little to do with the things you see and everything to do with the way you see them.</p></div>
+            <div class="signature">— Liz Photos</div>
+            <button class="btn-gold-solid mt-4" onclick="alert('Discover my artistic journey')">Discover my journey →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG SECTION -->
+  <section id="blog" class="py-5" style="background: var(--bg-primary);">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">✦ Visual Diaries ✦</h2>
+      <p class="section-subtitle" data-aos="fade-up">Insights & behind-the-scenes stories</p>
+      <div class="row g-4" data-aos="fade-up">
+        <div class="col-md-4"><div class="blog-card"><img src="images/family1.jpg" alt=""><div class="blog-content"><div class="blog-date"><i class="far fa-calendar-alt me-1"></i> March 15, 2026</div><h5 class="blog-title">The Art of Natural Light</h5><p class="blog-excerpt">Why golden hour is just the beginning — mastering ambient light in storytelling...</p><a href="#" class="text-decoration-none" style="color:var(--accent-gold);" onclick="alert('Full article coming soon')">Read more →</a></div></div></div>
+        <div class="col-md-4"><div class="blog-card"><img src="images/portrait3.jpg" alt=""><div class="blog-content"><div class="blog-date"><i class="far fa-calendar-alt me-1"></i> Feb 28, 2026</div><h5 class="blog-title">5 Tips for Authentic Portraits</h5><p class="blog-excerpt">How to make your subject feel seen — a guide to emotional photography.</p><a href="#" class="text-decoration-none" style="color:var(--accent-gold);" onclick="alert('Full article coming soon')">Read more →</a></div></div></div>
+        <div class="col-md-4"><div class="blog-card"><img src="images/baby.jpg" alt=""><div class="blog-content"><div class="blog-date"><i class="far fa-calendar-alt me-1"></i> Jan 10, 2026</div><h5 class="blog-title">Benin Through My Lens</h5><p class="blog-excerpt">Exploring the vibrant energy of Benin — a visual diary of culture and light.</p><a href="#" class="text-decoration-none" style="color:var(--accent-gold);" onclick="alert('Full article coming soon')">Read more →</a></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-5" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="contact-section" data-aos="fade-up">
+        <div class="row g-5">
+          <div class="col-lg-5"><h2 class="display-6 fw-bold" style="font-family:'Playfair Display'; color:var(--accent-gold); ">Let's create <span style="color:var(--accent-gold);">together</span></h2><p class="mt-3 text-secondary">Ready to freeze your legacy? Whether it's a portrait session, event coverage, or creative collaboration — I'm just a message away.</p><div class="mt-4"><div class="mb-3 text-secondary"><i class="fas fa-map-marker-alt me-3" style="color:var(--accent-gold);"></i> Benin, Nigeria</div><div class="mb-3 text-secondary"><i class="fas fa-envelope me-3" style="color:var(--accent-gold);"></i> lizphoto@gmail.com</div><div class="mb-3 text-secondary"><i class="fas fa-phone-alt me-3" style="color:var(--accent-gold);"></i> +234 810 290 2990</div><div class="mb-3 text-secondary"><i class="fab fa-instagram me-3" style="color:var(--accent-gold);"></i> liz_photos</div></div></div>
+          <div class="col-lg-7"><form onsubmit="event.preventDefault(); alert('Thank you! Liz will reply within 24h.'); this.reset();"><div class="mb-3"><input type="text" class="form-control form-control-custom" placeholder="Your name" required></div><div class="mb-3"><input type="email" class="form-control form-control-custom" placeholder="Email address" required></div><div class="mb-3"><input type="text" class="form-control form-control-custom" placeholder="Subject"></div><div class="mb-4"><textarea rows="4" class="form-control form-control-custom" placeholder="Tell me about your vision..."></textarea></div><button type="submit" class="btn-gold-solid w-100">Send Message <i class="fas fa-paper-plane ms-2"></i></button></form></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container"><p class="mb-1">© 2026 LIZ PHOTOS — Cinematic storytelling from Benin to the world.</p><div class="mt-2"><a href="#" class="me-3"><i class="fab fa-instagram"></i></a><a href="#" class="me-3"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-behance"></i></a></div><small>#lizphotos | Visual Poetry</small></div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  AOS.init({ duration: 800, once: true, offset: 60, easing: 'ease-out-quad' });
+  
+  const swiper = new Swiper('.hero-carousel', {
+    loop: true,
+    autoplay: { delay: 5000, disableOnInteraction: false },
+    pagination: { el: '.swiper-pagination', clickable: true },
+    navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+    effect: 'fade',
+    fadeEffect: { crossFade: true }
+  });
+  
+  // Light/Dark Mode Toggle
+  const themeToggle = document.getElementById('themeToggleBtn');
+  const body = document.body;
+  
+  // Check for saved theme preference
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'dark') {
+    body.classList.add('dark-mode');
+    updateToggleButton(true);
+  }
+  
+  function updateToggleButton(isDark) {
+    const icon = themeToggle.querySelector('i');
+    const text = themeToggle.querySelector('span');
+    if (isDark) {
+      icon.className = 'fas fa-sun';
+      text.textContent = 'Light Mode';
+    } else {
+      icon.className = 'fas fa-moon';
+      text.textContent = 'Dark Mode';
+    }
+  }
+  
+  themeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    const isDark = body.classList.contains('dark-mode');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    updateToggleButton(isDark);
+  });
+  
+  // Smooth scroll for nav links
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (href && href.startsWith('#')) {
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    });
+  });
+</script>
+</body>
+</html>9
